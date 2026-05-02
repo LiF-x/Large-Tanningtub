@@ -1,0 +1,76 @@
+diff --git a/data/cm_equipTypes.xml b/data/cm_equipTypes.xml
+index 8d3f15b..b494983 100755
+--- a/data/cm_equipTypes.xml
++++ b/data/cm_equipTypes.xml
+@@ -2048,7 +2048,7 @@
+       </skin>
+       <skin id="60440" name="4974">
+          <info description="4975" icon="art/2D/equipIcons/Weapons/JoustingLance_SkinC.png" />
+-         <meshes>	
++         <meshes>
+             <mountMesh>JoustingLance_SkinC</mountMesh>
+          </meshes>
+       </skin>
+@@ -9086,4 +9086,61 @@
+       <slot>9</slot>
+    </slots>
+ </object>
++<object id="2461">
++   <!--name = Witch Sickle -->
++   <skillID>33</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>10</slot>
++      <slot>11</slot>
++   </slots>
++</object>
++<object id="2462">
++   <!--name = Bear Axe -->
++   <skillID>45</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>12</slot>
++      <slot>13</slot>
++   </slots>
++</object>
++<object id="2463">
++   <!--name = Chieftain Sword -->
++   <skillID>45</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>12</slot>
++      <slot>13</slot>
++   </slots>
++   <meshes>
++      <mountMesh>Weapon_KnoolChieftain_sword</mountMesh>
++   </meshes>
++</object>
++<object id="2464">
++   <!--name = Hunter Axe -->
++   <skillID>40</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>10</slot>
++      <slot>11</slot>
++   </slots>
++</object>
++<object id="2465">
++   <!--name = Mole PicAxe -->
++   <skillID>33</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>12</slot>
++      <slot>13</slot>
++   </slots>
++</object>
++<object id="2466">
++   <!--name = Hunter Bow -->
++   <skillID>49</skillID>
++   <skillAmount>0</skillAmount>
++   <slots>
++      <slot>12</slot>
++      <slot>13</slot>
++   </slots>
++</object>
+ </equipment_types>
+
