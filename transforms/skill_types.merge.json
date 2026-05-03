@@ -5,43 +5,50 @@
         "name": "row",
         "keyType": "child",
         "keyName": "ID",
-        "keyValue": "23"
+        "keyValue": "23",
+        "composite": null
       },
       {
         "name": "abilities",
         "keyType": null,
         "keyName": null,
-        "keyValue": null
+        "keyValue": null,
+        "composite": null
       },
       {
         "name": "ability",
         "keyType": "attr",
         "keyName": "name",
-        "keyValue": "Use Tanning Tub"
+        "keyValue": "Use Tanning Tub",
+        "composite": null
       },
       {
         "name": "entities",
         "keyType": null,
         "keyName": null,
-        "keyValue": null
+        "keyValue": null,
+        "composite": null
       },
       {
         "name": "entity",
         "keyType": null,
         "keyName": null,
-        "keyValue": null
+        "keyValue": null,
+        "composite": null
       },
       {
         "name": "ent_reqs",
         "keyType": null,
         "keyName": null,
-        "keyValue": null
+        "keyValue": null,
+        "composite": null
       },
       {
         "name": "ent_req",
         "keyType": "attr",
         "keyName": "type",
-        "keyValue": "object_type_id"
+        "keyValue": "object_type_id",
+        "composite": null
       }
     ],
     "tokensToAdd": "2486"
@@ -52,43 +59,50 @@
         "name": "row",
         "keyType": "child",
         "keyName": "ID",
-        "keyValue": "23"
+        "keyValue": "23",
+        "composite": null
       },
       {
         "name": "abilities",
         "keyType": null,
         "keyName": null,
-        "keyValue": null
+        "keyValue": null,
+        "composite": null
       },
       {
         "name": "ability",
         "keyType": "attr",
         "keyName": "name",
-        "keyValue": "Pick Up"
+        "keyValue": "Pick Up",
+        "composite": null
       },
       {
         "name": "entities",
         "keyType": null,
         "keyName": null,
-        "keyValue": null
+        "keyValue": null,
+        "composite": null
       },
       {
         "name": "entity",
         "keyType": null,
         "keyName": null,
-        "keyValue": null
+        "keyValue": null,
+        "composite": null
       },
       {
         "name": "ent_reqs",
         "keyType": null,
         "keyName": null,
-        "keyValue": null
+        "keyValue": null,
+        "composite": null
       },
       {
         "name": "ent_req",
         "keyType": "attr",
         "keyName": "type",
-        "keyValue": "object_type_id"
+        "keyValue": "object_type_id",
+        "composite": null
       }
     ],
     "tokensToAdd": "2486"
