@@ -1,0 +1,237 @@
+diff --git a/data/cm_objects.xml b/data/cm_objects.xml
+index 3097294..c346236 100755
+--- a/data/cm_objects.xml
++++ b/data/cm_objects.xml
+@@ -18853,10 +18853,117 @@
+         </states>
+     </object>
+ 
+-    <object id="1232" isUnflattenAllowed="1" rotationStep="1" defaultState="Complete" StreamingGroup="2" noRuins="1">
++    <object id="1232" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" StreamingWeight="3">
+     <!--name = Long_House-->
+         <lockedCells>
+-            <cell x="0" y="0" />
++                      <cell x="0" y="0" />
++          <cell x="0" y="1" />
++          <cell x="0" y="2" />
++          <cell x="0" y="3" />
++          <cell x="0" y="4" />
++          <cell x="0" y="-1" />
++          <cell x="0" y="-2" />
++          <cell x="-1" y="-1" />
++          <cell x="-1" y="-2" />
++          <cell x="-2" y="-1" />
++          <cell x="-2" y="-2" />
++          <cell x="-3" y="-1" />
++          <cell x="-3" y="-2" />
++          <cell x="-4" y="-1" />
++          <cell x="-4" y="-2" />
++          <cell x="-5" y="-1" />
++          <cell x="-5" y="-2" />
++          <cell x="-6" y="-1" />
++          <cell x="-6" y="-2" />
++          <cell x="-7" y="-1" />
++          <cell x="-7" y="-2" />
++          <cell x="-1" y="1" />
++          <cell x="-1" y="2" />
++          <cell x="-1" y="3" />
++          <cell x="-1" y="4" />
++          <cell x="-2" y="1" />
++          <cell x="-2" y="2" />
++          <cell x="-2" y="3" />
++          <cell x="-2" y="4" />
++          <cell x="-3" y="1" />
++          <cell x="-3" y="2" />
++          <cell x="-3" y="3" />
++          <cell x="-3" y="4" />
++          <cell x="-4" y="1" />
++          <cell x="-4" y="2" />
++          <cell x="-4" y="3" />
++          <cell x="-4" y="4" />
++          <cell x="-5" y="0" />
++          <cell x="-5" y="1" />
++          <cell x="-5" y="2" />
++          <cell x="-5" y="3" />
++          <cell x="-5" y="4" />
++          <cell x="-6" y="1" /> 
++          <cell x="-6" y="2" />
++          <cell x="-6" y="3" />
++          <cell x="-6" y="4" />
++          <cell x="-7" y="1" />
++          <cell x="-7" y="2" />
++          <cell x="-7" y="3" />
++          <cell x="-7" y="4" />
++          <cell x="1" y="-1" />
++          <cell x="1" y="-2" />
++          <cell x="2" y="-1" />
++          <cell x="2" y="-2" />
++          <cell x="3" y="-1" />
++          <cell x="3" y="-2" />
++          <cell x="4" y="-1" />
++          <cell x="4" y="-2" />
++          <cell x="5" y="-1" />
++          <cell x="5" y="-2" />
++          <cell x="6" y="-1" />
++          <cell x="6" y="-2" />
++          <cell x="7" y="-1" />
++          <cell x="7" y="-2" />
++          <cell x="-1" y="0" />
++          <cell x="-2" y="0" />
++          <cell x="-3" y="0" />
++          <cell x="-4" y="0" />
++          <cell x="-5" y="0" />
++          <cell x="-6" y="0" />
++          <cell x="-7" y="0" />
++          <cell x="-8" y="1" />
++          <cell x="-8" y="2" />
++          <cell x="-8" y="3" />
++          <cell x="-8" y="4" />
++          <cell x="8" y="-2" />
++          <cell x="1" y="0" />
++          <cell x="2" y="0" />
++          <cell x="3" y="0" />
++          <cell x="4" y="0" />
++          <cell x="5" y="0" />
++          <cell x="6" y="0" />
++          <cell x="7" y="0" />
++          <cell x="8" y="0" />
++          <cell x="1" y="1" />
++          <cell x="2" y="1" />
++          <cell x="3" y="1" />
++          <cell x="4" y="1" />
++          <cell x="5" y="1" />
++          <cell x="6" y="1" />
++          <cell x="7" y="1" />
++          <cell x="8" y="1" />
++          <cell x="1" y="2" />
++          <cell x="2" y="2" />
++          <cell x="3" y="2" />
++          <cell x="4" y="2" />
++          <cell x="5" y="2" />
++          <cell x="6" y="2" />
++          <cell x="7" y="2" />
++          <cell x="8" y="2" />
++          <cell x="1" y="3" />
++          <cell x="2" y="3" />
++          <cell x="3" y="3" />
++          <cell x="4" y="3" />
++          <cell x="5" y="3" />
++          <cell x="6" y="3" />
++          <cell x="7" y="3" />
++          <cell x="8" y="3" />
+         </lockedCells>
+         <states>
+             <state type="Complete">
+@@ -18872,7 +18979,7 @@
+             <state type="Incomplete">
+                 <shapes>
+                     <shape>
+-                        <shapeName>art/models/3d/construction/misc/newbieisland/long_house.dts</shapeName>
++                        <shapeName>art/models/3d/construction/storage/large_warehouse/large_warehouse_inc.dts</shapeName>
+                         <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="1" angle="0" />
+                         <scale x="1" y="1" z="1" />
+@@ -21977,9 +22084,10 @@
+                 </shapes>
+                 <soundEmitters>
+                     <emitter>
+-                        <event>Object_TowerBell_Mid</event>
++                        <event>Bell</event>
+                         <offset x="0" y="0" z="32.2" />
+                         <rot x="0" y="0" z="1" angle="0" />
++                        <radius>25</radius>
+                     </emitter>
+                 </soundEmitters>
+             </state>
+@@ -25818,10 +25926,12 @@
+                 </shapes>
+                 <soundEmitters>
+                     <emitter>
++                        <profile>BellTowerSound</profile>
+                         <event>Object_TowerBell_High</event>
+-                        <offset x="0" y="0" z="32.2" />
++                        <offset x="0" y="0" z="0" />
+                         <rot x="0" y="0" z="1" angle="0" />
+-                    </emitter>
++                        <radius>20</radius>
++                    </emitter>  
+                 </soundEmitters>
+             </state>
+         </states>
+@@ -26214,5 +26324,73 @@
+             </state>
+         </states>
+     </object>
+-
++    <object id="2486" isUnflattenAllowed="0" rotationStep="90" defaultState="Complete" StreamingGroup="3" StreamingWeight="3">
++      <!--name = LiFx Big TanningTub-->
++      <lockedCells>   
++      <!--COORD INFO: X =   - North; + South // To plot land ensure you use x axis first
++                      Y =  "-" EAST; + WEST?-->
++                       
++      <!--name = WEST TO EAST-->
++          <cell x="0" y="0" />
++          <cell x="0" y="-1" />
++          <cell x="0" y="-2" />         
++      </lockedCells>
++      <states>
++          <state type="Complete">
++              <shapes>
++                  <shape isDoor="1">
++                      <shapeName>yolauncher/modpack/mods/LiFx/BigTub/art/Models/3D/crafting/big_tanning_tub.dts</shapeName>
++                      <offset x="0" y="-4" z="0" />
++                      <rot x="0" y="0" z="1" angle="0" />
++                      <scale x="1" y="1" z="1" />
++                  </shape>
++              </shapes>
++          </state>
++            <state type="Working">
++                <shapes>
++                    <shape>
++                        <shapeName>yolauncher/modpack/mods/LiFx/BigTub/art/Models/3D/crafting/big_tanning_tub.dts</shapeName>
++                        <offset x="0" y="-4" z="0" />
++                        <rot x="0" y="0" z="1" angle="0" />
++                        <scale x="1" y="1" z="1" />
++                    </shape>
++                </shapes>
++                <particleEmitters>
++                    <emitter>
++                        <datablock>LiFEmitterNodeData</datablock>
++                        <emitter>SmokeEmitterLiF2Z</emitter>
++                        <offset x="0" y="-4" z="0" />
++                        <rot x="0" y="0" z="1" angle="0" />
++                    </emitter>
++                </particleEmitters>
++                <soundEmitters>
++                    <emitter>
++                        <profile>env_tanning_tub</profile>
++                        <offset x="0" y="-4" z="0.520921" />
++                        <rot x="0" y="0" z="1" angle="0" />
++                    </emitter>
++                </soundEmitters>
++            </state>
++            <state type="Damaged">
++                <shapes>
++                    <shape>
++                        <shapeName>yolauncher/modpack/mods/LiFx/BigTub/art/Models/3D/crafting/big_tanning_tub.dts</shapeName>
++                        <offset x="0" y="-4" z="0" />
++                        <rot x="0" y="0" z="1" angle="0" />
++                        <scale x="1" y="1" z="1" />
++                    </shape>
++                </shapes>
++            </state>
++            <state type="Incomplete">
++                <shapes>
++                    <shape>
++                        <shapeName>art/models/3d/construction/misc/site/site.dts</shapeName>
++                        <offset x="0" y="-4" z="0" />
++                        <rot x="0" y="0" z="1" angle="0" />
++                        <scale x="1" y="1" z="1" />
++                    </shape>
++                </shapes>
++            </state>
++        </states>
++    </object>
+ </object_types>
+\ No newline at end of file
+

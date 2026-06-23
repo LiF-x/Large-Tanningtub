@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform" xmlns="https://lifeisfeudal.com/schemas/skill_types.xsd">
+  <row xdt:Locator="Condition(*[local-name()='ID']='65')" xdt:Transform="Replace">
+		<ID>65</ID>
+		<Name>Authority</Name>
+		<Parent>0</Parent>
+		<Group>3</Group>
+		<PrimaryStat>Int</PrimaryStat>
+		<SecondaryStat>Con</SecondaryStat>
+		<Icon>art\2D\skills\Authority.png</Icon>
+		<UnknownIcon>art\2D\skills\Authority_u.png</UnknownIcon>
+		<Passive>484</Passive>
+		<DescLvl0>485</DescLvl0>
+		<DescLvl30>486</DescLvl30>
+		<DescLvl60>487</DescLvl60>
+		<DescLvl90>488</DescLvl90>
+		<DescLvl100>489</DescLvl100>
+		<MasterMessageID>618</MasterMessageID>
+		<GMMessageID>619</GMMessageID>
+		<skill_mult>1</skill_mult>
+		<abilities>
+			<ability lvl="0" name="the Monument" type="Build" id="185">
+				<duration const="15 10" />
+				<ability_skill_mult>10000</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">1 2 3 6 7 8 9 10 11 12 13 14 15 16 17 19 177 178 180 181</ent_req>
+							<ent_req type="claim" usage_type="build" />
+							<ent_req type="distance">0</ent_req>
+						</ent_reqs>
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">152 153 154 155</ent_req>
+							<ent_req type="state">incomplete</ent_req>
+							<ent_req type="claim" usage_type="build" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">32</req>
+				</requirements>
+				<results>
+					<animation>building</animation>
+					<sound>player_nail</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Worship" type="Special" id="186">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">152 153 154 155</ent_req>
+							<ent_req type="state">incomplete complete damaged</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Worship" type="Special" id="355">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1444</ent_req>
+							<ent_req type="state">incomplete complete damaged</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="world">green</req>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Manage the Monument" type="Special" id="187">
+				<duration const="">1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">152 153 154 155</ent_req>
+							<ent_req type="state">incomplete complete damaged</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Trespassers!" id="188">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\trespassers.png</icon>
+				<entities />
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results>
+					<sound sid="50" />
+					<cooldowns>
+						<cooldown group="rest">30</cooldown>
+					</cooldowns>
+				</results>
+			</ability>
+			<ability lvl="0" name="Sacrifice" type="Interface" id="199">
+				<duration const="">3</duration>
+				<ability_skill_mult>20</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">152 153 154 155 1444</ent_req>
+							<ent_req type="state">incomplete complete damaged</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+					<entity type="cell">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Invite to Guild" id="202">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="player">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Destroy" type="Special" id="203">
+				<duration const="">20</duration>
+				<ability_skill_mult>100</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="destroy" />
+							<ent_req type="not_object_type_id">1456 1457 1460</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Upgrade the Monument" type="Special" id="204">
+				<duration const="">5</duration>
+				<ability_skill_mult>2000</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">153 154 155</ent_req>
+							<ent_req type="state">incomplete</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>pray</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Barter" type="Special" id="236">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="player">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements />
+				<results />
+			</ability>
+			<ability lvl="0" name="Expel the Intruders" type="Special" id="287">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">139 140 142 145 146 147 148 165 175 176 177 518 519 521 1055 1084 1085 1086 1087 1088 1089 1092 1336 1355</ent_req>
+							<ent_req type="claim" usage_type="use" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Private Land" type="Claim" id="290">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="claim" />
+						</ent_reqs>
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="state">incomplete</ent_req>
+							<ent_req type="object_type_id">1444</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="world">green</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound sid="91" />
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Resize" type="Claim" id="291">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="distance">0</ent_req>
+							<ent_req type="claim" usage_type="claim" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="world">green</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound sid="91" />
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Remove!" type="Claim" id="292">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="claim" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="world">green</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound sid="91" />
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Revoking Ritual" type="Claim" id="298">
+				<duration const="">60</duration>
+				<ability_skill_mult>100</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements>
+					<req type="world">green</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound>revoke_ritual</sound>
+				</results>
+			</ability>
+			<ability lvl="0" name="PC Planning" type="Interface" id="302">
+				<duration const="">-1</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<enable_movement>1</enable_movement>
+				<entities>
+					<entity type="cell">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<state>pc_planning</state>
+				</results>
+			</ability>
+			<ability lvl="0" name="Trade" id="294">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1077</ent_req>
+							<ent_req type="state">complete damaged</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Rename" id="312">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">74 96 107 109 111 114 115 116 117 118 122 123 131 132 133 134 135 136 137 138 139 140 141 143 144 145 146 147 148 174 175 176 177 453 455 472 503 504 507 508 509 512 513 514 515 516 517 518 519 520 521 682 1055 1077 1084 1085 1086 1087 1088 1089 1092 1093 1097 1098 1109 1110 1121 1342 1343 1353 1357 1359 1394 1410 1411 1412 1413 1499 53 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 97 98 99 100 101 103 104 105 106 109 115 116 118 119 120 121 123 167 168 169 472 522 523 1152 1323 1333 1334 1394 1405 1406 1407 1445 1446 1461 1497 1657 1658 1659 1660 1661 1701 1723 1724 1725 1726 1727 1728 1729 1730 1731 1732 2486</ent_req>
+							<ent_req type="claim" usage_type="destroy" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+				</requirements>
+				<results />
+			</ability>
+			<ability lvl="0" name="Manage Object Rights" id="339">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">74 96 107 109 111 114 115 116 117 118 122 123 131 132 133 134 135 136 137 138 139 140 141 143 144 145 146 147 148 174 175 176 177 453 455 472 503 504 507 508 509 512 513 514 515 516 517 518 519 520 521 682 1055 1077 1084 1085 1086 1087 1088 1089 1092 1093 1097 1098 1109 1110 1121 1342 1343 1353 1357 1359 1394 1410 1411 1412 1413 1499 1701</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results />
+			</ability>
+			<ability lvl="0" name="Sacrifice Chest" id="305">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">1458</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound sid="91" />
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Open Gift" id="336">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="inventory_item">
+						<ent_reqs>
+							<ent_req type="object_type_id" parent="1">1644</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="onhorse">allowed</req>
+					<req type="oncart">denied</req>
+				</requirements>
+				<results>
+					<animation>perform</animation>
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Undo Claim Resize" id="329">
+				<duration const="">5</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="claim" usage_type="claim" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="world">green</req>
+				</requirements>
+				<results>
+					<animation>pray</animation>
+					<sound sid="91" />
+					<sstam_spent>10</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Build Outpost" type="Special" id="341">
+				<duration const="">10</duration>
+				<ability_skill_mult>320</ability_skill_mult>
+				<entities>
+					<entity type="cell">
+						<ent_reqs>
+							<ent_req type="substance">1 2 3 6 7 8 9 10 11 12 13 14 15 16 17 19 177 178 180 181</ent_req>
+							<ent_req type="claim" usage_type="build" />
+							<ent_req type="distance">0</ent_req>
+						</ent_reqs>
+					</entity>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1702 1703 1704 1705 1706 1707 1708 1709 1710 1711</ent_req>
+							<ent_req type="state">incomplete</ent_req>
+							<ent_req type="claim" usage_type="build" />
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements>
+					<req type="tool_id" parent="1">32</req>
+				</requirements>
+				<results>
+					<animation>building</animation>
+					<sound>player_nail</sound>
+					<sstam_spent>50</sstam_spent>
+				</results>
+			</ability>
+			<ability lvl="0" name="Claim Outpost" type="Special" id="342">
+				<duration const="">10</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1702 1703 1704 1705 1706 1707 1708 1709 1710 1711</ent_req>
+							<ent_req type="state">complete damaged</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>pray</animation>
+					<sound>revoke_ritual</sound>
+				</results>
+			</ability>
+			<ability lvl="0" name="Stop Outpost Claiming" type="Special" id="343">
+				<duration const="">20</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1702 1703 1704 1705 1706 1707 1708 1709 1710 1711</ent_req>
+							<ent_req type="state">working</ent_req>
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results>
+					<animation>pray</animation>
+					<sound>revoke_ritual</sound>
+				</results>
+			</ability>
+			<ability lvl="0" name="Rule Outpost" type="Special" id="344">
+				<duration const="">0</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<entities>
+					<entity type="complex_obj">
+						<ent_reqs>
+							<ent_req type="object_type_id">1702 1703 1704 1705 1706 1707 1708 1709 1710 1711</ent_req>
+							<ent_req type="state">complete damaged working</ent_req>
+							<ent_req type="claim" usage_type="use">
+								<land type="outpost" jh_allowed_worlds="everywhere" />
+							</ent_req>	
+						</ent_reqs>
+					</entity>
+				</entities>
+				<requirements />
+				<results />
+			</ability>
+			<ability lvl="0" name="Enslave" id="345">
+				<duration const="">6</duration>
+				<ability_skill_mult>0</ability_skill_mult>
+				<icon>art\2D\skills\abilities\coup_de_grace.png</icon>
+				<entities>
+					<entity type="player">
+						<ent_reqs />
+					</entity>
+				</entities>
+				<requirements>
+					<req type="warstance">allowed</req>
+					<req type="world">red</req>
+					<req type="jh">only</req>
+				</requirements>
+				<results>
+					<animation>mowing</animation>
+					<sound>player_perform</sound>
+					<sstam_spent>30</sstam_spent>
+				</results>
+			</ability>
+		</abilities>
+	</row>
+</table>
