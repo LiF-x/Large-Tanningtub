@@ -23,13 +23,13 @@
   "loadOrderHint": 300,
   "objectTypeIds": {
     "added": [
-      "2486"
+      2486
     ],
     "modified": [
-      "1232",
-      "1671",
-      "1733",
-      "2003"
+      1232,
+      1671,
+      1733,
+      2003
     ],
     "scriptClaimed": [
       3022
