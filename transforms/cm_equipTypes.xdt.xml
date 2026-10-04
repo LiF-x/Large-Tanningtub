@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<equipment_types xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <object id="2461" xdt:Transform="Insert">
+   <!--name = Witch Sickle -->
+   <skillID>33</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+      <slot>11</slot>
+   </slots>
+</object>
+  <object id="2462" xdt:Transform="Insert">
+   <!--name = Bear Axe -->
+   <skillID>45</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+      <slot>13</slot>
+   </slots>
+</object>
+  <object id="2463" xdt:Transform="Insert">
+   <!--name = Chieftain Sword -->
+   <skillID>45</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+      <slot>13</slot>
+   </slots>
+   <meshes>
+      <mountMesh>Weapon_KnoolChieftain_sword</mountMesh>
+   </meshes>
+</object>
+  <object id="2464" xdt:Transform="Insert">
+   <!--name = Hunter Axe -->
+   <skillID>40</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>10</slot>
+      <slot>11</slot>
+   </slots>
+</object>
+  <object id="2465" xdt:Transform="Insert">
+   <!--name = Mole PicAxe -->
+   <skillID>33</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+      <slot>13</slot>
+   </slots>
+</object>
+  <object id="2466" xdt:Transform="Insert">
+   <!--name = Hunter Bow -->
+   <skillID>49</skillID>
+   <skillAmount>0</skillAmount>
+   <slots>
+      <slot>12</slot>
+      <slot>13</slot>
+   </slots>
+</object>
+</equipment_types>
